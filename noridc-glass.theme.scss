@@ -102,3 +102,9 @@ code {
   // Remove transparency from emoji-picker, pinned messages and inbox
   background-color: $nord-1 !important;
 }
+
+.callContainer-HtHELf,
+.wrapper-1gVUIN,
+.minimum-fXpVNc {
+  background-color: transparentize($nord-1, 0.8) !important;
+}
