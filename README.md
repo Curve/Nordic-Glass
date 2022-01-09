@@ -17,3 +17,6 @@ You can find the transparency setting under:
   - Power Cord
     - General Settings
       - Transparent Window
+
+# ⚠️ Notes
+- Nordic Glass is a dark theme only, using light mode will result in the default discord theme being used
