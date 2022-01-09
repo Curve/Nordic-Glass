@@ -1,0 +1,8 @@
+{
+  "name": "Nordic Glass",
+  "description": "A nordic discord theme with transparency",
+  "author": "Curve",
+  "version": "1.0",
+  "license": "MIT",
+  "theme": "noridc-glass.theme.css"
+}

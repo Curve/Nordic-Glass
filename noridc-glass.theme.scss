@@ -1,0 +1,101 @@
+/*
+ * @name Nordic Glass
+ * @description A nordic discord theme with transparency
+ * @author Curve
+ * @version 1.0
+ * @requires Glasscord>=0.0.5
+*/
+
+/* Settings Icons */
+@import url("https://snappercord.github.io/Settings-Icons/source.css");
+
+/* Codeblock icons */
+@import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
+
+/* Replace emojis */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css");
+
+$nord-0: #2e3440;
+$nord-1: #3b4252;
+$nord-2: #434c5e;
+$nord-3: #4c566a;
+$nord-4: #d8dee9;
+$nord-5: #e5e9f0;
+$nord-6: #eceff4;
+$nord-7: #8fbcbb;
+$nord-8: #88c0d0;
+$nord-9: #81a1c1;
+$nord-10: #5e81ac;
+$nord-11: #bf616a;
+$nord-12: #d08770;
+$nord-13: #ebcb8b;
+$nord-14: #a3be8c;
+$nord-15: #b48ead;
+
+:root {
+  --glasscord-titlebar: native;
+  --glasscord-linux-blur: true;
+  --glasscord-win-blur: blurbehind;
+  --glasscord-win-performance-mode: true;
+  --glasscord-macos-vibrancy: fullscreen-ui;
+
+  --font-primary: "SF Pro Display";
+  --font-display: "SF Pro Display";
+}
+
+code {
+  font-family: "CaskaydiaCove NF" !important;
+}
+
+.theme-dark {
+  --background-floating: #{$nord-1} !important;
+  --background-primary: #{transparentize($nord-0, 0.6)} !important;
+  --background-secondary: #{transparentize($nord-0, 0.6)} !important;
+  --background-secondary-alt: #{transparentize($nord-0, 0.6)} !important;
+
+  --brand-experiment: #{$nord-10} !important;
+  --brand-experiment-560: #{$nord-10} !important;
+  --brand-experiment-600: #{$nord-10} !important;
+
+  --channeltextarea-background: #{$nord-1} !important;
+  --background-tertiary: #{transparentize($nord-0, 0.6)} !important;
+
+  --background-accent: #{$nord-3} !important;
+  --background-modifier-active: #{$nord-1} !important;
+
+  --text-normal: #{$nord-4} !important;
+  --text-danger: #{$nord-11} !important;
+  --text-warning: #{$nord-13} !important;
+  --text-positive: #{$nord-14} !important;
+  --header-primary: #{$nord-5} !important;
+  --header-secondary: #{$nord-6} !important;
+
+  --background-modifier-hover: #{$nord-1} !important;
+  --background-modifier-accent: #{$nord-2} !important;
+  --background-modifier-selected: #{$nord-2} !important;
+
+  --background-mentioned: #{transparentize($nord-12, 0.9)} !important;
+  --background-mentioned-hover: #{transparentize($nord-12, 0.89)} !important;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+  background-color: transparentize($nord-14, 0.2) !important;
+}
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+  background-color: $nord-14 !important;
+}
+
+.container-2cd8Mz {
+  // Adjust the friends list
+  background-color: transparent !important;
+}
+
+.contentWrapper-3vHNP2,
+.messagesPopout-eVzQcI,
+.header-1w9Q93,
+#popout_4187 {
+  // Remove transparency from emoji-picker, pinned messages and inbox
+  background-color: $nord-1 !important;
+}

@@ -1,0 +1,72 @@
+/*
+ * @name Nordic Glass
+ * @description A nordic discord theme with transparency
+ * @author Curve
+ * @version 1.0
+ * @requires Glasscord>=0.0.5
+*/
+/* Settings Icons */
+@import url("https://snappercord.github.io/Settings-Icons/source.css");
+/* Codeblock icons */
+@import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
+/* Replace emojis */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css");
+:root {
+  --glasscord-titlebar: native;
+  --glasscord-linux-blur: true;
+  --glasscord-win-blur: blurbehind;
+  --glasscord-win-performance-mode: true;
+  --glasscord-macos-vibrancy: fullscreen-ui;
+  --font-primary: "SF Pro Display";
+  --font-display: "SF Pro Display";
+}
+
+code {
+  font-family: "CaskaydiaCove NF" !important;
+}
+
+.theme-dark {
+  --background-floating: #3b4252 !important;
+  --background-primary: rgba(46, 52, 64, 0.4) !important;
+  --background-secondary: rgba(46, 52, 64, 0.4) !important;
+  --background-secondary-alt: rgba(46, 52, 64, 0.4) !important;
+  --brand-experiment: #5e81ac !important;
+  --brand-experiment-560: #5e81ac !important;
+  --brand-experiment-600: #5e81ac !important;
+  --channeltextarea-background: #3b4252 !important;
+  --background-tertiary: rgba(46, 52, 64, 0.4) !important;
+  --background-accent: #4c566a !important;
+  --background-modifier-active: #3b4252 !important;
+  --text-normal: #d8dee9 !important;
+  --text-danger: #bf616a !important;
+  --text-warning: #ebcb8b !important;
+  --text-positive: #a3be8c !important;
+  --header-primary: #e5e9f0 !important;
+  --header-secondary: #eceff4 !important;
+  --background-modifier-hover: #3b4252 !important;
+  --background-modifier-accent: #434c5e !important;
+  --background-modifier-selected: #434c5e !important;
+  --background-mentioned: rgba(208, 135, 112, 0.1) !important;
+  --background-mentioned-hover: rgba(208, 135, 112, 0.11) !important;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+  background-color: rgba(163, 190, 140, 0.8) !important;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+  background-color: #a3be8c !important;
+}
+
+.container-2cd8Mz {
+  background-color: transparent !important;
+}
+
+.contentWrapper-3vHNP2,
+.messagesPopout-eVzQcI,
+.header-1w9Q93,
+#popout_4187 {
+  background-color: #3b4252 !important;
+}
