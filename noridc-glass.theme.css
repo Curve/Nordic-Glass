@@ -77,5 +77,13 @@ code {
 .callContainer-HtHELf,
 .wrapper-1gVUIN,
 .minimum-fXpVNc {
-  background-color: rgba(59, 66, 82, 0.2) !important;
+  background-color: rgba(46, 52, 64, 0.2) !important;
+}
+
+.theme-dark .root-g14mjS {
+  background-color: #2e3440 !important;
+}
+
+.theme-dark .footer-31IekZ {
+  background-color: #3b4252 !important;
 }

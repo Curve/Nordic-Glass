@@ -106,5 +106,15 @@ code {
 .callContainer-HtHELf,
 .wrapper-1gVUIN,
 .minimum-fXpVNc {
-  background-color: transparentize($nord-1, 0.8) !important;
+  // Call Background
+  background-color: transparentize($nord-0, 0.8) !important;
+}
+
+.theme-dark .root-g14mjS {
+  // Screen-Share body
+  background-color: $nord-0 !important;
+}
+.theme-dark .footer-31IekZ {
+  // Screen-Share footer
+  background-color: $nord-1 !important;
 }
