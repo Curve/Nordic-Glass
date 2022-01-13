@@ -7,7 +7,11 @@
 */
 
 /* Settings Icons */
-@import url("https://snappercord.github.io/Settings-Icons/source.css");
+@import url("https://crearts-community.github.io/Settings-Icons/src/source.css");
+
+/* ContextMenu Icons */
+@import url("https://crearts-community.github.io/Context-Icons/clients/powercord.css");
+@import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css");
 
 /* Codeblock icons */
 @import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
@@ -78,10 +82,6 @@ code {
   --background-mentioned-hover: #{transparentize($nord-12, 0.89)} !important;
 }
 
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
-  background-color: transparentize($nord-14, 0.2) !important;
-}
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
 .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
   background-color: $nord-14 !important;
@@ -98,7 +98,12 @@ code {
 .categoryList-2qRrlj,
 .contentWrapper-3vHNP2,
 #emoji-picker-grid,
-#popout_4187 {
+#popout_4187,
+.inspector-DFKXwB,
+.inspector-2A2Chb,
+.container-18GwIk,
+.footer-5ji8u1,
+.recentMentionsPopout-2bI1ZN {
   // Remove transparency from emoji-picker, pinned messages and inbox
   background-color: $nord-1 !important;
 }

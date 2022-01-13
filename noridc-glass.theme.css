@@ -6,7 +6,10 @@
  * @requires Glasscord>=0.0.5
 */
 /* Settings Icons */
-@import url("https://snappercord.github.io/Settings-Icons/source.css");
+@import url("https://crearts-community.github.io/Settings-Icons/src/source.css");
+/* ContextMenu Icons */
+@import url("https://crearts-community.github.io/Context-Icons/clients/powercord.css");
+@import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css");
 /* Codeblock icons */
 @import url("https://snappercord.github.io/codeblock-icons/dist-default.css");
 /* Replace emojis */
@@ -50,11 +53,6 @@ code {
   --background-mentioned-hover: rgba(208, 135, 112, 0.11) !important;
 }
 
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
-  background-color: rgba(163, 190, 140, 0.8) !important;
-}
-
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
 .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
   background-color: #a3be8c !important;
@@ -70,7 +68,12 @@ code {
 .categoryList-2qRrlj,
 .contentWrapper-3vHNP2,
 #emoji-picker-grid,
-#popout_4187 {
+#popout_4187,
+.inspector-DFKXwB,
+.inspector-2A2Chb,
+.container-18GwIk,
+.footer-5ji8u1,
+.recentMentionsPopout-2bI1ZN {
   background-color: #3b4252 !important;
 }
 
