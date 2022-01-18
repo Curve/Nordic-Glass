@@ -79,7 +79,7 @@ code {
 .emojiPicker-6YCk8a,
 .messagesPopout-eVzQcI,
 .recentMentionsPopout-2bI1ZN,
-*[id^='popout_'],
+*[id^="popout_"],
 .section-3G9aLW {
   background-color: #3b4252 !important;
 }
