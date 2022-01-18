@@ -43,15 +43,17 @@ $nord-15: #b48ead;
   --glasscord-win-performance-mode: true;
   --glasscord-macos-vibrancy: fullscreen-ui;
 
-  --font-primary: "SF Pro Display";
-  --font-display: "SF Pro Display";
+  --font-primary: "SF Pro Display", sans-serif;
+  --font-display: "SF Pro Display", sans-serif;
 }
 
 code {
-  font-family: "CaskaydiaCove NF" !important;
+  font-family: "CaskaydiaCove NF", monospace !important;
 }
 
-.theme-dark {
+.theme-dark,
+.theme-light // We also apply this to the light theme to fix the "Create Server" Modal
+{
   --background-floating: #{$nord-1} !important;
   --background-primary: #{transparentize($nord-0, 0.6)} !important;
   --background-secondary: #{transparentize($nord-0, 0.6)} !important;
@@ -103,23 +105,26 @@ code {
 .inspector-2A2Chb,
 .container-18GwIk,
 .footer-5ji8u1,
-.recentMentionsPopout-2bI1ZN {
+.recentMentionsPopout-2bI1ZN,
+.diversitySelectorOptions-3DhNYs,
+.diversitySelectorOptionsInExpressionPicker-3wybQR {
   // Remove transparency from emoji-picker, pinned messages and inbox
   background-color: $nord-1 !important;
 }
 
 .callContainer-HtHELf,
 .wrapper-1gVUIN,
-.minimum-fXpVNc {
-  // Call Background
+.minimum-fXpVNc,
+.pageWrapper-2PwDoS {
+  // Call Background + Explore Page
   background-color: transparentize($nord-0, 0.8) !important;
 }
 
 .theme-dark .root-g14mjS {
-  // Screen-Share body
+  // Screen-Share Modal Body
   background-color: $nord-0 !important;
 }
 .theme-dark .footer-31IekZ {
-  // Screen-Share footer
+  // Screen-Share Modal Footer
   background-color: $nord-1 !important;
 }

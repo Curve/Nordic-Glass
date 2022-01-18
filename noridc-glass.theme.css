@@ -20,15 +20,16 @@
   --glasscord-win-blur: blurbehind;
   --glasscord-win-performance-mode: true;
   --glasscord-macos-vibrancy: fullscreen-ui;
-  --font-primary: "SF Pro Display";
-  --font-display: "SF Pro Display";
+  --font-primary: "SF Pro Display", sans-serif;
+  --font-display: "SF Pro Display", sans-serif;
 }
 
 code {
-  font-family: "CaskaydiaCove NF" !important;
+  font-family: "CaskaydiaCove NF", monospace !important;
 }
 
-.theme-dark {
+.theme-dark,
+.theme-light {
   --background-floating: #3b4252 !important;
   --background-primary: rgba(46, 52, 64, 0.4) !important;
   --background-secondary: rgba(46, 52, 64, 0.4) !important;
@@ -73,13 +74,16 @@ code {
 .inspector-2A2Chb,
 .container-18GwIk,
 .footer-5ji8u1,
-.recentMentionsPopout-2bI1ZN {
+.recentMentionsPopout-2bI1ZN,
+.diversitySelectorOptions-3DhNYs,
+.diversitySelectorOptionsInExpressionPicker-3wybQR {
   background-color: #3b4252 !important;
 }
 
 .callContainer-HtHELf,
 .wrapper-1gVUIN,
-.minimum-fXpVNc {
+.minimum-fXpVNc,
+.pageWrapper-2PwDoS {
   background-color: rgba(46, 52, 64, 0.2) !important;
 }
 
