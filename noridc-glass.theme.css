@@ -74,9 +74,8 @@ code {
 .header-1ULbqO,
 .emojiPicker-6YCk8a,
 .messagesPopout-eVzQcI,
-#popout_56,
 .recentMentionsPopout-2bI1ZN,
-#popout_54,
+*[id^='popout_'],
 .section-3G9aLW {
   background-color: #3b4252 !important;
 }

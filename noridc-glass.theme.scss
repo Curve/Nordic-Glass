@@ -113,9 +113,8 @@ code {
 .header-1ULbqO, // Headers such as "Frequently used" in the emoji picker
 .emojiPicker-6YCk8a, //Background for the reactions emoji picker
 .messagesPopout-eVzQcI, // Pinned messages
-#popout_56, // Pinned messages
 .recentMentionsPopout-2bI1ZN, // Despite the name, responsible for Unread messages background
-#popout_54, // Threads background
+*[id^='popout_'], // Threads background, Pinned messages
 .section-3G9aLW // Activities in the friend list
 {
   // Remove transparency from emoji-picker, pinned messages and inbox
