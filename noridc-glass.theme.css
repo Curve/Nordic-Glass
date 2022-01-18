@@ -33,7 +33,7 @@ code {
   --background-floating: #3b4252 !important;
   --background-primary: rgba(46, 52, 64, 0.4) !important;
   --background-secondary: rgba(46, 52, 64, 0.4) !important;
-  --background-secondary-alt: rgba(46, 52, 64, 0.4) !important;
+  --background-secondary-alt: #2e3440 !important;
   --brand-experiment: #5e81ac !important;
   --brand-experiment-560: #5e81ac !important;
   --brand-experiment-600: #5e81ac !important;
@@ -47,11 +47,18 @@ code {
   --text-positive: #a3be8c !important;
   --header-primary: #e5e9f0 !important;
   --header-secondary: #eceff4 !important;
-  --background-modifier-hover: #3b4252 !important;
+  --background-modifier-hover: #434c5e !important;
   --background-modifier-accent: #434c5e !important;
   --background-modifier-selected: #434c5e !important;
   --background-mentioned: rgba(208, 135, 112, 0.1) !important;
   --background-mentioned-hover: rgba(208, 135, 112, 0.11) !important;
+  --scrollbar-auto-thumb: #3b4252 !important;
+  --scrollbar-auto-track: #2e3440 !important;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+  background-color: rgba(163, 190, 140, 0.8) !important;
 }
 
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
@@ -63,26 +70,31 @@ code {
   background-color: transparent !important;
 }
 
-.messagesPopout-eVzQcI,
-.header-1w9Q93,
-.header-11eigE,
-.categoryList-2qRrlj,
 .contentWrapper-3vHNP2,
-#emoji-picker-grid,
-#popout_4187,
-.inspector-DFKXwB,
-.inspector-2A2Chb,
-.container-18GwIk,
-.footer-5ji8u1,
+.unicodeShortcut-3N8oDe,
+.header-1ULbqO,
+.emojiPicker-6YCk8a,
+.messagesPopout-eVzQcI,
+#popout_56,
 .recentMentionsPopout-2bI1ZN,
-.diversitySelectorOptions-3DhNYs,
-.diversitySelectorOptionsInExpressionPicker-3wybQR {
+#popout_54 {
   background-color: #3b4252 !important;
+}
+
+.channelHeader-DFRX8q {
+  background-color: #3b4252 !important;
+}
+
+.messageContainer-3VTXBC {
+  background-color: #434c5e !important;
 }
 
 .callContainer-HtHELf,
 .wrapper-1gVUIN,
-.minimum-fXpVNc,
+.minimum-fXpVNc {
+  background-color: rgba(46, 52, 64, 0.2) !important;
+}
+
 .pageWrapper-2PwDoS {
   background-color: rgba(46, 52, 64, 0.2) !important;
 }
