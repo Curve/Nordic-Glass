@@ -58,9 +58,9 @@ code {
   --background-secondary: #{transparentize($nord-0, 0.6)} !important;
   --background-secondary-alt: #{$nord-0} !important;
 
-  --brand-experiment: #{$nord-9} !important;
-  --brand-experiment-560: #{$nord-9} !important;
-  --brand-experiment-600: #{$nord-9} !important;
+  --brand-experiment: #{$nord-9} !important; // Default
+  --brand-experiment-560: #{transparentize($nord-9, 0.2)} !important; // Hover
+  --brand-experiment-600: #{transparentize($nord-9, 0.5)} !important; // Pressed
 
   --channeltextarea-background: #{$nord-1} !important;
   --background-tertiary: #{transparentize($nord-0, 0.6)} !important;
@@ -84,6 +84,11 @@ code {
 
   --scrollbar-auto-thumb: #{$nord-1} !important;
   --scrollbar-auto-track: #{$nord-0} !important;
+}
+
+.panels-3wFtMD // Change Background color in user area to be transparent
+{
+  --background-secondary-alt: #{transparentize($nord-0, 0.6)} !important;
 }
 
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
