@@ -123,16 +123,7 @@ code {
 .section-3G9aLW // Activities in the friend list
 {
   // Remove transparency from emoji-picker, pinned messages and inbox
-  background-color: $nord-1 !important;
-}
-
-.channelHeader-DFRX8q {
-  // Inbox Header
-  background-color: $nord-1 !important;
-}
-.messageContainer-3VTXBC {
-  // Inbox Message Container
-  background-color: $nord-2 !important;
+  --background-secondary: #{$nord-1} !important;
 }
 
 .callContainer-HtHELf,
