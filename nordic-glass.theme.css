@@ -16,12 +16,10 @@
   --glasscord-win-performance-mode: true;
   --glasscord-macos-vibrancy: fullscreen-ui;
   --font-primary: "SF Pro Display", sans-serif;
-  --font-display: "SF Pro Display", sans-serif;
-}
+  --font-display: "SF Pro Display", sans-serif; }
 
 code {
-  font-family: "CaskaydiaCove NF", monospace !important;
-}
+  font-family: "CaskaydiaCove NF", monospace !important; }
 
 .theme-dark,
 .theme-light {
@@ -48,30 +46,24 @@ code {
   --background-mentioned: rgba(208, 135, 112, 0.1) !important;
   --background-mentioned-hover: rgba(208, 135, 112, 0.11) !important;
   --scrollbar-auto-thumb: #3b4252 !important;
-  --scrollbar-auto-track: #2e3440 !important;
-}
+  --scrollbar-auto-track: #2e3440 !important; }
 
 .panels-3wFtMD {
-  --background-secondary-alt: rgba(46, 52, 64, 0.4) !important;
-}
+  --background-secondary-alt: rgba(46, 52, 64, 0.4) !important; }
 
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
 .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
-  background-color: rgba(163, 190, 140, 0.8) !important;
-}
+  background-color: rgba(163, 190, 140, 0.8) !important; }
 
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
 .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
-  background-color: #a3be8c !important;
-}
+  background-color: #a3be8c !important; }
 
 .outer-2JOHae.interactive-2zD88a:hover {
-  background-color: #434c5e !important;
-}
+  background-color: #434c5e !important; }
 
 .container-2cd8Mz {
-  background-color: transparent !important;
-}
+  background-color: transparent !important; }
 
 .contentWrapper-3vHNP2,
 .unicodeShortcut-3N8oDe,
@@ -81,23 +73,21 @@ code {
 .recentMentionsPopout-2bI1ZN,
 *[id^='popout_'],
 .section-3G9aLW {
-  --background-secondary: #3b4252 !important;
-}
+  --background-secondary: #3b4252 !important; }
 
 .callContainer-HtHELf,
 .wrapper-1gVUIN,
 .minimum-fXpVNc {
-  background-color: rgba(46, 52, 64, 0.2) !important;
-}
+  background-color: rgba(46, 52, 64, 0.2) !important; }
 
 .pageWrapper-2PwDoS {
-  background-color: rgba(46, 52, 64, 0.2) !important;
-}
+  background-color: rgba(46, 52, 64, 0.2) !important; }
+
+div[class^="carouselModal-"].root-g14mjS {
+  background-color: transparent !important; }
 
 .theme-dark .root-g14mjS {
-  background-color: #2e3440 !important;
-}
+  background-color: #2e3440 !important; }
 
 .theme-dark .footer-31IekZ {
-  background-color: #3b4252 !important;
-}
+  background-color: #3b4252 !important; }

@@ -138,6 +138,11 @@ code {
   background-color: transparentize($nord-0, 0.8) !important;
 }
 
+div[class^="carouselModal-"].root-g14mjS {
+    // Image Preview Background
+    background-color: transparent !important;
+}
+
 .theme-dark .root-g14mjS {
   // Screen-Share Modal Body
   background-color: $nord-0 !important;
